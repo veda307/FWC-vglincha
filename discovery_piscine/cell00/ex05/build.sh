@@ -5,7 +5,6 @@ then
 else
 	for arg in "$@"
 	do
-		echo "$arg"
+		mkdir "ex$arg"
 	done
 fi
-EOF
