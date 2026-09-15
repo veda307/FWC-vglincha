@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Basics</title>
+	<style>
+		body {
+			background-color: #FFC5D3;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			color: #FFFFFF;
+			text-align: center;
+			font-size: 100px;
+		}
+		.shops {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 60px;
+		}
+		.shop {
+			text-align: center;
+		}
+		.shop .img-box {
+			width: 200px;
+			height: 120px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.shop img {
+			max-width: 100%;
+			max-height: 100%;
+			object-fit: contain;
+		}
+		hr {
+			width: 100%;
+			border: none;
+			border-top: 2px solid #FFB5C0;
+			margin: 40px 0 0 0;
+		}
+		.copyright {
+			text-align: right;
+			font-style: italic;
+			font-family: monospace;
+			padding-right: 20px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Welcome to the Shop !</h1>
+
+	<div class="shops">
+		<div class="shop">
+			<div class="img-box">
+				<a href="https://www.amazon.com">
+					<img src="amazon.png" alt="Amazon">
+				</a>
+			</div>
+			<a href="https://www.amazon.com">Amazon</a>
+		</div>
+		<div class="shop">
+			<div class="img-box">
+				<a href="https://www.ebay.com">
+					<img src="ebay.png" alt="eBay">
+				</a>
+			</div>
+			<a href="https://www.ebay.com">eBay</a>
+		</div>
+	</div>
+
+	<hr>
+
+	<p class="copyright">&copy; vglincha 2026</p>
+</body>
+</html>
