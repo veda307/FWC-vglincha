@@ -8,4 +8,3 @@ else
 		echo "$arg"
 	done
 fi
-EOF
