@@ -8,3 +8,4 @@ else
 		mkdir "ex$arg"
 	done
 fi
+EOF
