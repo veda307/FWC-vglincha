@@ -1,0 +1,46 @@
+html, body {
+	margin: 0;
+	padding: 20px;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#newBtn {
+	font-size: 1.1em;
+	padding: 8px 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	border: 2px solid #;
+	border-radius: 6px;
+	background-color: #F4C9CC;
+	color: #C9184A;
+	transition: background-color 0.2s;
+}
+
+#ft_list {
+	width: 400px;
+	max-width: 90%;
+	border: 2px solid #E17892;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: #FFFFFF;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+	min-height: 50px;
+}
+
+.todo-item {
+	background-color: #E78898;
+	border: 1px solid #;
+	border-radius: 6px;
+	padding: 10px 15px;
+	margin-bottom: 8px;
+	cursor: pointer;
+	word-wrap: break-word;
+}
+
+.todo-item:hover {
+	background-color: #F5DBDC;
+}
