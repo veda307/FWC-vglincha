@@ -9,11 +9,11 @@ html, body {
 }
 
 #newBtn {
-	font-size: 1.1em;
+	font-size: 2em;
 	padding: 8px 20px;
 	margin-bottom: 20px;
 	cursor: pointer;
-	border: 2px solid #;
+	border: 2px solid #FF4C9CC;
 	border-radius: 6px;
 	background-color: #F4C9CC;
 	color: #C9184A;
@@ -32,8 +32,8 @@ html, body {
 }
 
 .todo-item {
-	background-color: #E78898;
-	border: 1px solid #;
+	background-color: #F8B5C0;
+	border: 1px solid #FFFFFF;
 	border-radius: 6px;
 	padding: 10px 15px;
 	margin-bottom: 8px;
