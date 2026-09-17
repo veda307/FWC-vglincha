@@ -1,0 +1,100 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	background-color: #f4f4f4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-wrapper {
+	text-align: center;
+}
+
+header h1 {
+	font-size: 1.4em;
+	margin-bottom: 15px;
+}
+
+.card {
+	width: 260px;
+	background-color: white;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.info-table {
+	border: none;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+.info-table td {
+	border: none;
+	padding: 0;
+}
+
+.photo-cell {
+	padding: 0 !important;
+}
+
+.profile-pic {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+	display: block;
+}
+
+.login-cell {
+	font-size: 1.4em;
+	font-weight: bold;
+	padding-top: 15px !important;
+}
+
+.desc-cell {
+	color: #777;
+	font-size: 0.95em;
+	padding-top: 5px !important;
+}
+
+.school-cell {
+	font-size: 0.9em;
+	padding: 5px 0 15px 0 !important;
+}
+
+.social-cell {
+	padding: 5px 0 20px 0 !important;
+}
+
+.social-cell a {
+	display: inline-block;
+	margin: 0 6px;
+	color: #333;
+}
+
+.social-cell svg {
+	fill: #333;
+	transition: fill 0.2s;
+}
+
+.social-cell a:hover svg {
+	fill: #FF6600;
+}
+
+.contact-btn {
+	display: block;
+	background-color: #111;
+	color: white;
+	text-decoration: none;
+	padding: 14px 0;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+.contact-btn:hover {
+	background-color: #333;
+}
