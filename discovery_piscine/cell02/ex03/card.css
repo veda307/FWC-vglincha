@@ -76,13 +76,14 @@ header h1 {
 	color: #333;
 }
 
-.social-cell svg {
-	fill: #333;
-	transition: fill 0.2s;
+.social-icon {
+	width: 24px;
+	height: 24px;
+	transition: opacity 0.2s;
 }
 
-.social-cell a:hover svg {
-	fill: #FF6600;
+.social-cell a:hover .social-icon {
+	opacity: 0.6;
 }
 
 .contact-btn {
