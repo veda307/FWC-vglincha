@@ -52,7 +52,7 @@ section {
 /* ===== SECTION 1: HOME ===== */
 .hero {
 	height: 100vh;
-	background-image: url("images/bg1.jpg");
+	background-image: url("bg1.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -154,7 +154,7 @@ section {
 /* ===== SECTION 3: SHOWCASE ===== */
 .showcase {
 	padding: 100px 8%;
-	background-image: url("images/bg2.jpg");
+	background-image: url("bg2.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
